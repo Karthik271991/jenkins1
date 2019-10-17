@@ -1,0 +1,341 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8674526000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Add the customer Details",
+        "description": "",
+        "id": "title-of-your-feature;add-the-customer-details",
+        "after": [
+          {
+            "result": {
+              "duration": 2429208000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2586740600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter enter into page",
+            "match": {
+              "location": "Cucustepdefinition.user_enter_enter_into_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 881364900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click Add customer and its goes to next page",
+            "match": {
+              "location": "Cucustepdefinition.user_click_Add_customer_and_its_goes_to_next_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Venkatesh",
+                  "Venkat",
+                  "Venkat1993@gmail.com",
+                  "Theni",
+                  "9922330099"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 475055000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Fill the Page and submit",
+            "match": {
+              "location": "Cucustepdefinition.user_Fill_the_Page_and_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigates into next Page",
+            "match": {
+              "location": "Cucustepdefinition.user_navigates_into_next_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6133885700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Customer Add the details",
+        "description": "",
+        "id": "title-of-your-feature;customer-add-the-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 253747200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1752449800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User in Home page",
+            "match": {
+              "location": "Cucustepdefinition.user_in_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89703300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User wants to click Add customer field",
+            "match": {
+              "location": "Cucustepdefinition.user_wants_to_click_Add_customer_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 746689000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Fills all the field and click submit\"Venkat\",\"s\",\"venkats27@gmail.com\",\"Bangalore\",\"7654980145\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Venkat\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"s\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"venkats27@gmail.com\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Bangalore\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"7654980145\"",
+                  "offset": 88
+                }
+              ],
+              "location": "Cucustepdefinition.user_Fills_all_the_field_and_click_submit(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User See in next Page",
+            "match": {
+              "location": "Cucustepdefinition.user_See_in_next_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5913040100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Customer Add the details",
+        "description": "",
+        "id": "title-of-your-feature;customer-add-the-details;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 199791100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1932300600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User in Home page",
+            "match": {
+              "location": "Cucustepdefinition.user_in_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84673100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User wants to click Add customer field",
+            "match": {
+              "location": "Cucustepdefinition.user_wants_to_click_Add_customer_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 658736100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Fills all the field and click submit\"Rohit\",\"Vignesh\",\"Rohit06@gmail.com\",\"mumbai\",\"9940923459\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rohit\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Vignesh\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Rohit06@gmail.com\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"mumbai\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"9940923459\"",
+                  "offset": 88
+                }
+              ],
+              "location": "Cucustepdefinition.user_Fills_all_the_field_and_click_submit(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User See in next Page",
+            "match": {
+              "location": "Cucustepdefinition.user_See_in_next_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Project.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
